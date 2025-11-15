@@ -35,7 +35,7 @@ export default function AIDemo() {
   };
 
   return (
-    <section id="ai-demo" className="relative py-32 bg-gradient-to-b from-background-dark to-secondary overflow-hidden">
+    <section id="ai-demo" className="horizontal-section w-screen h-screen relative flex items-center bg-gradient-to-b from-background-dark to-secondary overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0">
         <motion.div

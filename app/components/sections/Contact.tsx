@@ -39,7 +39,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="relative py-32 bg-gradient-to-b from-secondary to-background-dark overflow-hidden">
+    <section id="contact" className="horizontal-section w-screen h-screen relative flex items-center bg-gradient-to-b from-secondary to-background-dark overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
