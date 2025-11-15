@@ -1,19 +1,21 @@
 import Navbar from './components/ui/Navbar';
 import Hero from './components/sections/Hero';
+import Services from './components/sections/Services';
+import Portfolio from './components/sections/Portfolio';
+import AIDemo from './components/sections/AIDemo';
+import Contact from './components/sections/Contact';
+import Footer from './components/ui/Footer';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background-dark">
       <Navbar />
       <Hero />
-
-      {/* Placeholder for future sections */}
-      <div className="h-screen bg-gradient-to-b from-background-dark to-secondary flex items-center justify-center">
-        <div className="text-center">
-          <h2 className="text-4xl font-bold text-gradient mb-4">More Sections Coming Soon</h2>
-          <p className="text-gray-400">Services • Portfolio • AI Demo • Contact</p>
-        </div>
-      </div>
+      <Services />
+      <Portfolio />
+      <AIDemo />
+      <Contact />
+      <Footer />
     </main>
   );
 }
