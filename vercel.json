@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "main": false,
+      "claude/build-unique-website-01HbMAZ1bmRXDwGtW22WQaPU": true
+    }
+  }
+}
